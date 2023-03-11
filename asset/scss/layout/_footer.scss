@@ -1,0 +1,297 @@
+.footer {
+    margin-top: 100px;
+    font-family: "AppleSDGothicNeo-Regular", sans-serif;
+    padding-bottom: 120px;
+    border-top: 1px solid #e7e7e7;
+    background-color: #fff;
+
+    .notice-area {
+        position: relative;
+        padding: 3px 15px 1px;
+
+        .notice-wrap {
+            position: relative;
+            padding: 0 30px 0 35px;
+            line-height: 26px;
+            backface-visibility: hidden;
+            transform: scale(1);
+        }
+
+        p {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 27px;
+            height: 16px;
+            margin-top: -9px;
+            padding: 0;
+            border: 1px solid #cacaca;
+            border-radius: 3px;
+            font-size: 10px;
+            line-height: 16px;
+            color: #767676;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        a {
+            display: block;
+            overflow: hidden;
+            font-size: 11px;
+            color: #666;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            height: 26px;
+        }
+
+        .icon-arrow {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            width: 7px;
+            height: 7px;
+            border-top: 1px solid #c2c2c2;
+            border-right: 1px solid #c2c2c2;
+            transform: rotate(45deg) translateY(-50%);
+        }
+    }
+
+
+    .cs-area {
+        padding: 0 15px;
+        background: #717178;
+
+        .inner {
+            display: table;
+            width: 100%;
+            min-height: 53px;
+            padding: 12px 0;
+            border-top: 1px solid #606066;
+            box-sizing: border-box;
+        }
+
+        .left-wrap {
+            display: table-cell;
+            position: relative;
+            padding: 2px 0 0 34px;
+            font-size: 10px;
+            color: #fff;
+            vertical-align: middle;
+            line-height: 13px;
+            word-wrap: break-word;
+            word-break: keep-all;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 29px;
+                height: 27px;
+                background: url(../images/sp_footer.png) no-repeat;
+                background-size: 50px auto;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+
+            .info {
+                letter-spacing: -.5px;
+            }
+
+            .contact {
+                font-size: 12px;
+                font-family: "Roboto-Medium";
+                font-weight: 500;
+                color: #fcfcfd;
+                vertical-align: -1px;
+                letter-spacing: -0.3px;
+                white-space: nowrap;
+            }
+
+            .email {
+                padding-left: 1px;
+                font-family: "Avenir-Medium", sans-serif;
+                color: #fcfcfd;
+                line-height: 1.1;
+                letter-spacing: -0.3px;
+            }
+        }
+
+        .right-wrap {
+            display: flex;
+            flex-direction: column;
+            vertical-align: middle;
+            font-size: 0;
+            text-align: right;
+
+            .link-contact {
+                display: inline-block;
+                min-height: 22px;
+                margin: 2px 0 2px 1px;
+                padding: 0 13px;
+                border: 1px solid #606066;
+                border-radius: 3px;
+                background: #66666d;
+                font-size: 10px;
+                color: #fff;
+                letter-spacing: -0.05px;
+
+            }
+        }
+    }
+
+    .link-area {
+        padding: 0 13px;
+        background: #dbdbe0;
+
+        .link-list {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .link-item {
+            display: table-cell;
+            position: relative;
+            vertical-align: top;
+
+            &:last-child::after {
+                display: none;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: 0;
+                width: 1px;
+                height: 12px;
+                margin-top: -6px;
+                background: #b8b8be;
+            }
+
+            a {
+                display: block;
+                position: relative;
+                margin: 0 10px;
+                padding: 9px 0 6px;
+                font-size: 11px;
+                color: #565656;
+                text-align: center;
+                letter-spacing: -0.05px;
+            }
+        }
+    }
+
+}
+
+.information-area {
+    padding: 0 20px;
+
+    .representative-wrap {
+        margin-top: 7px;
+
+        .name {
+            font-size: 11px;
+            color: #414141;
+            letter-spacing: -0.5px;
+        }
+
+        address {
+            margin-top: 0;
+            font-size: 10px;
+            color: #888;
+            line-height: 1.5;
+
+            .bar {
+                margin: 0 5px;
+                font-size: 10px;
+                color: #cdcdd0;
+            }
+
+            .link-check {
+                color: #414141;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .banking-wrap {
+        margin-top: 10px;
+
+        .banking {
+            font-size: 11px;
+            color: #414141;
+        }
+
+        .link-check {
+            display: inline-block;
+            font-size: 10px;
+            padding: 0 1px 0 4px;
+            color: #414141;
+            text-decoration: underline;
+        }
+
+        .desc {
+            font-size: 10px;
+            color: #888;
+        }
+
+    }
+
+    .policy-wrap {
+        margin-top: 15px;
+        padding-top: 0;
+        border-top: 0;
+        font-size: 0;
+
+        .policy-list {
+            &::after {
+                display: block;
+                clear: both;
+                content: "";
+            }
+        }
+        li {
+            float: left;
+            margin-right: 7px;
+
+            &::after {
+                content: "|";
+                display: inline-block;
+                font-size: 10px;
+                color: #cdcdd0;
+                margin: 0 0 0 7px;
+            }
+
+            a {
+                font-size: 10px;
+                color: #414141;
+                letter-spacing: -0.5px;
+
+                &.color {
+                    color: #ff5b59;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .desc-wrap {
+        padding-right: 40px;
+        margin-top: 10px;
+
+        .desc {
+            font-size: 10px;
+            color: #888;
+        }
+    }
+
+    .copyright{
+        margin-top: 4px;
+        font-size: 10px;
+        color: #888;
+    }
+}
+
+

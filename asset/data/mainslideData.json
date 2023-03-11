@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "img" : "asset/images/slide_01.jpg",
+            "title" : "2023 쇼핑 버킷리스트"
+        },
+        {
+            "img" : "asset/images/slide_02.jpg",
+            "title" : "파타고니아 FW 시즌오프"
+        },
+        {
+            "img" : "asset/images/slide_03.jpg",
+            "title" : "쓱배송의 세계로 초대합니다"
+        },
+        {
+            "img" : "asset/images/slide_04.jpg",
+            "title" : "금주의 추천 상품"
+        },
+        {
+            "img" : "asset/images/slide_05.jpg",
+            "title" : "몰리쓱 PET WEEK"
+        },
+        {
+            "img" : "asset/images/slide_06.jpg",
+            "title" : "1/18~31 공공남매 페어웰(쑥스럽게 안녕)"
+        },
+        {
+            "img" : "asset/images/slide_07.jpg",
+            "title" : "2023 대한민국 수산대전"
+        },
+        {
+            "img" : "asset/images/slide_08.jpg",
+            "title" : "삼성물산 패밀리세일"
+        },
+        {
+            "img" : "asset/images/slide_09.jpg",
+            "title" : "새해맞이 명품추천"
+        },
+        {
+            "img" : "asset/images/slide_10.jpg",
+            "title" : "아이폰 14 물량확보"
+        },
+        {
+            "img" : "asset/images/slide_11.jpg",
+            "title" : "스마일클럽 1월의 가입 혜택"
+        },
+        {
+            "img" : "asset/images/slide_12.jpg",
+            "title" : "신일전자 1/26(목) 8PM"
+        },
+        {
+            "img" : "asset/images/slide_13.jpg",
+            "title" : "건강/식단관리 기획전"
+        },
+        {
+            "img" : "asset/images/slide_14.jpg",
+            "title" : "0105~ 현대카드"
+        },
+        {
+            "img" : "asset/images/slide_15.jpg",
+            "title" : "10/26~ 삼성카드"
+        }
+    ]
+}

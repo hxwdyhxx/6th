@@ -1,0 +1,24 @@
+{
+    "items":[
+        {
+            "image":"asset/images/weekly_01.png",
+            "sub":"빈폴골프",
+            "dsc":"22F/W NEW ARRIVAL !"
+        },
+        {
+            "image":"asset/images/weekly_02.png",
+            "sub":"[GUCCI] 공식 온라인 스토어",
+            "dsc":"기프트 기빙 컬렉션"
+        },
+        {
+            "image":"asset/images/weekly_03.jpg",
+            "sub":"스타벅스앳홈",
+            "dsc":"신제품 커피믹스"
+        },
+        {
+            "image":"asset/images/weekly_04.jpg",
+            "sub":"BRIGHTEN YOUR HOLIDAYS",
+            "dsc":"스타벅스와 함께더욱 반짝이게."
+        }
+    ]
+}

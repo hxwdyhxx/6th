@@ -1,0 +1,39 @@
+{
+    "items" : [
+        {
+            "alt":"에스티 로더 단 하나의 슈퍼히어로 갈색병",
+            "img":"asset/images/ssgtv_01.jpg",
+            "brand":"에스티로더",
+            "desc":"에스티 로더 단 하나의 슈퍼히어로 갈색병",
+            "info":"에스티로더의 베스트 스킨케어 3-STEP 파워 트리오! 그중에서 가장 빛나는 <br>no.1 멀티 리페어 세럼 갈색병을 만나보세요"
+        },
+        {
+            "alt":"클래스가 남다른 SSG푸드마켓",
+            "img":"asset/images/ssgtv_02.jpg",
+            "brand":"SSG FOOD MARKET",
+            "desc":"클래스가 남다른 SSG푸드마켓",
+            "info":"전문가가 엄선한 신선한 재료로 나만의 힙슐랭 디너 만들어보세요."
+        },
+        {
+            "alt":"UGG와 함께한 모델 유채원의 24 Hours 룩을 만나보세요!",
+            "img":"asset/images/ssgtv_03.jpg",
+            "brand":"UGG",
+            "desc":"UGG와 함께한 모델 유채원의 24 Hours 룩을 만나보세요!",
+            "info":"더 예뻐진 디자인으로 많은 MZ에게 사랑받고 있는 UGG! 모델 유채원의 24 Hours 룩을 만나보세요."
+        },
+        {
+            "alt":"우리 아이 패션의 완성 탑텐키즈",
+            "img":"asset/images/ssgtv_04.jpg",
+            "brand":"탑텐키즈",
+            "desc":"우리 아이 패션의 완성 탑텐키즈",
+            "info":"올가을과 겨울을 책임질 이너부터 아우터까지! 탑텐키즈로 완성해보세요"
+        },
+        {
+            "alt":"서울 샤퀴테리 공방 소금집",
+            "img":"asset/images/ssgtv_05.jpg",
+            "brand":"소금집",
+            "desc":"서울 샤퀴테리 공방 소금집",
+            "info":"잠봉부터 베이컨까지 소금집에서 직접 만들어서 풍미가 더 좋아요."
+        }
+    ]
+}

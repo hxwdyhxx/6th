@@ -1,0 +1,19 @@
+// utills
+@import './utills/var';
+@import './utills/mixins';
+
+// base
+@import './base/typo';
+@import './base/reset';
+@import './base/preset';
+@import './base/anmation';
+
+// layout
+@import './layout/header';
+@import './layout/footer';
+
+// components
+@import './components/buttons';
+
+//pages
+@import './pages/main';

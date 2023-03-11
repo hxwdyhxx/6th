@@ -1,0 +1,103 @@
+{
+    "items": [{
+            "link": "주소",
+            "title": "스마일클럽",
+            "img": "asset/images/related_smileclub.png"
+        },
+        {
+            "link": "주소",
+            "title": "쓱배송",
+            "img": "asset/images/related_delivery.png"
+        },
+        {
+            "link": "주소",
+            "title": "쓱배송<br>traders",
+            "img": "asset/images/related_traders.png"
+        },
+        {
+            "link": "주소",
+            "title": "자주구매",
+            "img": "asset/images/related_often.png"
+        },
+        {
+            "link": "주소",
+            "title": "오늘뭐먹지",
+            "img": "asset/images/related_today.png"
+        },
+        {
+            "link": "주소",
+            "title": "이벤트",
+            "img": "asset/images/related_event.png"
+        },
+        {
+            "link": "주소",
+            "title": "선물하기",
+            "img": "asset/images/related_gift.png"
+        },
+        {
+            "link": "주소",
+            "title": "SSG.LIVE",
+            "img": "asset/images/related_live.png"
+        },
+        {
+            "link": "주소",
+            "title": "노브랜드",
+            "img": "asset/images/related_nobrand.png"
+        },
+        {
+            "link": "주소",
+            "title": "피코크",
+            "img": "asset/images/related_peacock.png"
+        },
+        {
+            "link": "주소",
+            "title": "백화점",
+            "img": "asset/images/related_shinsegae.png"
+        },
+        {
+            "link": "주소",
+            "title": "스타벅스",
+            "img": "asset/images/related_starbucks.png"
+        },
+        {
+            "link": "주소",
+            "title": "프리미엄<br>식품관",
+            "img": "asset/images/related_foodmarket.png"
+        },
+        {
+            "link": "주소",
+            "title": "여행",
+            "img": "asset/images/related_travel.png"
+        },
+        {
+            "link": "주소",
+            "title": "뷰티",
+            "img": "asset/images/related_beauty.png"
+        },
+        {
+            "link": "주소",
+            "title": "패션",
+            "img": "asset/images/related_fashion.png"
+        },
+        {
+            "link": "주소",
+            "title": "유아동",
+            "img": "asset/images/related_little.png"
+        },
+        {
+            "link": "주소",
+            "title": "W컨셉",
+            "img": "asset/images/related_wcon.png"
+        },
+        {
+            "link": "주소",
+            "title": "반려동물",
+            "img": "asset/images/related_pet.png"
+        },
+        {
+            "link": "주소",
+            "title": "건강식품",
+            "img": "asset/images/related_bio.png"
+        }
+    ]
+}

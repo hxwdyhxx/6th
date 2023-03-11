@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="//sui.ssgcdn.com/ui/common/img/android_144x144.png" />
+    <title>신세계적 쇼핑포털 SSG.COM</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+<body>
+    <!-- direct -->
+    <div id="skipNav">
+        <a href="#header">상단바로가기</a>
+        <a href="#main">본문바로가기</a>
+        <a href="#footer">하단바로가기</a>
+    </div>
+    <!-- // direct -->
+
+    <header id="header" class="header">
+        <div class="logo-area">
+            <h1 class="logo">
+                <a href="#">
+                    <img src="./asset/images/logo.svg" alt="ssg.com" width="86">
+                </a>
+            </h1>
+            <a href="#" class="link-more" type="button">
+                <span class="blind">몰 목록 보기</span>
+            </a>
+            <!--  -->
+            <div class="mall-wrap">
+                <h2 class="mall-logo">
+                    <a href="#"><span class="blind">ssg.com</span></a>
+                </h2>
+                <ul class="mall-list">
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon emart"></i>
+                            <span class="mall-name">이마트몰</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon shinsegae"></i>
+                            <span class="mall-name">신세계몰</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon traders"></i>
+                            <span class="mall-name">트레이더스</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon department"></i>
+                            <span class="mall-name">신세계백화점</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon dawn"></i>
+                            <span class="mall-name">새벽배송</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon casa"></i>
+                            <span class="mall-name">까사미아</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon starbucks"></i>
+                            <span class="mall-name">STARBUCKS</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon chicor"></i>
+                            <span class="mall-name">CHICOR</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon live"></i>
+                            <span class="mall-name">신세계라이브쇼핑</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon travel"></i>
+                            <span class="mall-name">여행</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon villiage"></i>
+                            <span class="mall-name">S.I.VILLAGE</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon starfield"></i>
+                            <span class="mall-name">스타필드</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="mall-icon outlet"></i>
+                            <span class="mall-name">프리미엄아울렛</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-area">
+            <div class="search-wrap">
+                <div class="search-box">
+                    <input type="search" id="search" class="search">
+                    <button class="btn-search"><span class="blind">검색버튼</span></button>
+                </div>
+            </div>
+            <a href="#" class="cart-wrap">
+                <i class="cart-icon"><span class="blind">장바구니</span></i>
+            </a>
+        </div>
+
+    </header>
+    <main id="main" class="container">
+        
+        <nav class="gnb-area">
+            <ul class="gnb-list">
+                <li class="gnb-item">
+                    <a href="#" class="active">홈</a>
+                </li>
+                <li class="gnb-item">
+                    <a href="#">특가</a>
+                </li>
+                <li class="gnb-item">
+                    <a href="#">랭킹</a>
+                </li>
+                <li class="gnb-item">
+                    <a href="#">SSG.TV</a>
+                </li>
+                <li class="gnb-item">
+                    <a href="#">명품관</a>
+                </li>
+                <li class="gnb-item">
+                    <a href="#">브랜드</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="contents">
+            <!-- 슬라이드 -->
+            <section class="sc-mainvisual">
+                <div class="swiper" id="mainSlide">
+                    <div class="swiper-wrapper" id="slideList">
+                       <!-- ... -->
+                    </div> <!-- // swiper-wrapper -->
+                    <div class="control-box">
+                        <div class="fraction">
+                            <span class="page">1</span>/<span class="total">32</span>
+                        </div>
+                        <button class="btn btn-autoplay" aria-label="자동재생 정지"></button>
+                        <button class="btn more" aria-label="더보기"></button>
+                    </div>
+                </div><!-- swiper -->
+            </section>
+
+            <section class="swiper sc-relatedsite ">
+                <ul class="swiper-wrapper relatedsite-list" id="relatedList">
+                   <!-- ... -->
+                </ul>
+                <div class="swiper-pagination"></div>
+                <!-- <div class="dragbar"></div> -->
+            </section>
+
+            <section class="sc-adslide">
+                <div class="swiper" id="adSlide">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="img-box">
+                                <a href="#">
+                                    <img src="./asset/images/bannerslide_01.jpg" alt="삼성전자">
+                                </a>
+                                <i class="ad"></i>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <div class="ad-pagination"></div>
+                </div>
+            </section>
+
+
+            <section class="sc-promotion">
+                <div class="headline-area">
+                    <h3 class="headline">이번 주 카드 프로모션</h3>
+                    <p class="desc">SSGPAY로 결제하셔도 혜택 받을 수 있어요</p>
+                </div>
+
+                <div class="promotion-area">
+                    <ul class="promotion-list">
+                        <li class="promotion-item">
+                            <div href="#" class="info-wrap">
+                                <a href="#">
+                                    <div class="top">
+                                        <span class="rate"><em>~5</em>만</span>
+                                        <i class="icon ssg"></i>
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="card-info">SSG.COM카드 </span>
+                                        <div class="info-box">
+                                            <span class="txt">첫결제</span>
+                                            <!-- <span class="txt">즉시할인</span> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="promotion-item">
+                            <div href="#" class="info-wrap blue">
+                                <a href="#">
+                                    <div class="top">
+                                        <span class="rate"><em>15%</em></span>
+                                        <i class="icon sam"></i>
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="card-info">SSG.COM 삼성카드</span>
+                                        <div class="info-box">
+                                            <span class="txt">SSG머니</span>
+                                            <span class="txt">적립 외</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="promotion-item">
+                            <div href="#" class="info-wrap brown">
+                                <a href="#">
+                                    <div class="top">
+                                        <span class="rate"><em>5%</em></span>
+                                        <i class="icon kb"></i>
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="card-info">KB국민카드 </span>
+                                        <div class="info-box">
+                                            <span class="txt">청구할인</span>
+                                            <!-- <span class="txt">즉시할인</span> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
+
+            <div class="banner-area">
+                <a href="#">
+                    <img src="./asset/images/banner_01.png" alt="적립, 무료배송, 할인을 동시에! 스마일클럽만의 최강 장보기 혜택">
+                </a>
+            </div>
+
+            <section class="sc-recommend">
+                <div class="headline-area">
+                    <h3 class="headline">SSG가 자신있게 추천드려요</h3>
+                </div>
+
+                <div class="slide-wrap">
+                    <div class="swiper commonSlide">
+                        <div class="swiper-wrapper" id="recommendList">
+                            <!-- ... -->
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- <section class="sc-wconcept">
+                <div class="group-nav">
+                    <a href="" data-cate="1">아우터</a>
+                    <a href="" data-cate="2">원피스</a>
+                    <a href="" data-cate="3">블라우스/셔츠</a>
+                    <a href="" data-cate="4">티셔츠</a>
+                </div>
+
+                <div class="group-content" >
+                    <ul id="cateProductList">
+                       
+                    </ul>
+                </div>
+            </section> -->
+
+
+
+
+
+            <section class="sc-weeklyrecommend">
+                <div class="headline-area">
+                    <h3 class="headline">금주의 추천 기획전</h3>
+                </div>
+
+                <ul class="weekly-list">
+              
+                    
+                    
+                </ul>
+
+            </section>
+
+            <section class="sc-adsecond">
+
+                <div class="swiper" id="adSlide">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="img-box">
+                                <a href="#">
+                                    <img src="./asset/images/bannerslide_01.jpg" alt="소니 블랙프라이데이">
+                                </a>
+                                <i class="ad"></i>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img-box">
+                                <a href="#">
+                                    <img src="./asset/images/bannerslide_02.jpg" alt="소니 블랙프라이데이">
+                                </a>
+                                <i class="ad"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="ad-pagination"></div>
+                </div>
+            </section>
+
+            <section class="sc-hotdeal">
+                <div class="headline-area">
+                    <h3 class="headline">놓쳐선 안 될 라이브 예고</h3>
+                </div>
+                <div class="hotdeal-area">
+                    <div class="img-wrap">
+                        <a href="#" class="img-box">
+                            <img src="//sui.ssgcdn.com/cmpt/banner/202211/2022111615275707822511501351_467.jpg"
+                                alt="까사미아">
+                            <i class="icon">방송 중 핫딜</i>
+                        </a>
+                        <div class="notice-box">
+                            <a href="#"><i class="icon"></i>알림 신청</a>
+                        </div>
+                    </div>
+                    <div class="desc-wrap">
+                        <a href="#" class="desc-box">
+                            <span class="title">[최대 57%↓] 까사미아 캄포 소파 올해 마지막 혜택!</span>
+                            <span class="time">11/21 오후 8시 라이브</span>
+                        </a>
+                        <a href="#" class="product-box">
+                            <div class="product-img">
+                                <img src="https://sitem.ssgcdn.com/56/87/94/item/1000274948756_i1_200.jpg"
+                                    alt="까사미아 캄포 슬림 3인 소파IV">
+                            </div>
+                            <div class="product-info">
+                                <p class="product-title"> <span>까사미아</span>&nbsp;까사미아 캄포 슬림 3인 소파IV</p>
+                                    <div class="product-price">
+                                        <em class="price">2,325,000</em><span>원</span>
+                                    </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="full-area">
+                    <div class="full-box"><a href="#">라이브 스케줄 전체보기<i class="arrow"></i></a></div>
+                </div>
+            </section>
+
+            <section class="sc-ssgtv">
+                <div class="headline-area">
+                    <h3 class="headline">SSG.TV</h3>
+                    <p class="desc">흥미로운 영상 쇼핑의 시작</p>
+                </div>
+
+                <div class="slide-wrap">
+                    <div class="swiper" id="TVSlide">
+                        <div class="swiper-wrapper" id="tvList">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="full-area">
+                    <div class="full-box"><a href="#">SSG.TV 전체보기<i class="arrow"></i></a></div>
+                </div>
+            </section>
+
+
+            <section class="sc-recommend">
+                <div class="headline-area">
+                    <h3 class="headline">이런 서비스도 만나보세요</h3>
+                </div>
+
+                <div class="slide-wrap">
+                    <div class="swiper commonSlide">
+                        <div class="swiper-wrapper" id="serviceList">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="sc-recommend">
+                <div class="headline-area">
+                    <h3 class="headline">이번주 주목할만한 행사</h3>
+                </div>
+
+                <div class="slide-wrap">
+                    <div class="swiper commonSlide">
+                        <div class="swiper-wrapper" id="eventsList">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="sc-recommend">
+                <div class="headline-area">
+                    <h3 class="headline">BLOSSOM BRAND</h3>
+                </div>
+
+                <div class="slide-wrap">
+                    <div class="swiper commonSlide">
+                        <div class="swiper-wrapper" id="blossomList">
+                           <!-- ... -->
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="notice-area">
+            <div class="notice-wrap">
+                <p>공지</p>
+                <a href="#">신세계 프리미엄 아울렛 앱 종료 안내</a>
+                <i class="icon-arrow"></i>
+            </div>
+        </div>
+        <div class="cs-area">
+            <div class="inner">
+                <div class="left-wrap">
+                    <span class="info">SSG.COM 고객센터 / 전자금융거래 분쟁처리</span><br>
+                    <span class="contact">1577-3419 /</span> <span class="email">ssg@ssg.com</span>
+                </div>
+                <div class="right-wrap">
+                    <a href="#" class="link-contact">전화걸기</a>
+                    <a href="#" class="link-contact">1:1 고객센터</a>
+                </div>
+            </div>
+        </div>
+        <div class="link-area">
+            <ul class="link-list">
+                <li class="link-item">
+                    <a href="#">로그인</a>
+                </li>
+                <li class="link-item">
+                    <a href="#">회원가입</a>
+                </li>
+                <li class="link-item">
+                    <a href="#">앱다운로드</a>
+                </li>
+                <li class="link-item">
+                    <a href="#">PC버전</a>
+                </li>
+            </ul>
+        </div>
+        <div class="information-area">
+            <div class="representative-wrap">
+                <span class="name">(주)에스에스지닷컴</span>
+                <address>대표자: 강희석<i class="bar">|</i>사업자등록번호: 870-88-01143<br>통신판매업 신고번호: 제2022-서울강남-03751호
+                    <a href="#" class="link-check">사업자 정보확인</a><br>개인정보보호 책임자: 김우진<i class="bar">|</i>주소: 서울특별시 강남구
+                    테헤란로 231<br>호스팅서비스 사업자 : (주)에스에스지닷컴
+                </address>
+            </div>
+            <div class="banking-wrap">
+                <div class="banking">우리은행 채무지급보증 안내
+                    <a href="#" class="link-check">서비스가입사실 확인</a>
+                </div>
+                <p class="desc">당사는 고객님이 현금 결제한 금액에 대해 우리은행과<br>채무지급 보증 계약을 체결하여 안전거래를 보장하고 있습니다.</p>
+            </div>
+            <div class="policy-wrap">
+                <span class="blind">SSG.COM 정책 및 약관</span>
+                <ul class="policy-list">
+                    <li><a href="#">회사소개</a> </li>
+                    <li><a href="#">이용약관</a> </li>
+                    <li><a href="#">전자금융거래이용약관</a> </li>
+                    <li><a href="#" class="color">개인정보처리방침</a> </li>
+                    <li><a href="#">청소년보호방침</a> </li>
+                    <li><a href="#">소비자분쟁해결기준</a> </li>
+                    <li><a href="#">입점상담</a> </li>
+                </ul>
+            </div>
+            <div class="desc-wrap">
+                <p class="desc">㈜에스에스지닷컴에서 판매되는 상품 중에는 개별 판매자가 판매하는 오픈마켓 상품이 포함되어 있습니다.</p>
+                <p class="desc">오픈마켓 상품의 경우, ㈜에스에스지닷컴은 통신판매중개자로서 거래 당사자가 아니며, 입점 판매사가 등록한 상품정보 및 거래 등에 대해
+                    책임을 지지 않습니다.</p>
+                <p class="desc">㈜에스에스지닷컴 사이트의 상품/판매자/쇼핑정보, 컨텐츠, UI 등에 대한 무단 복제, 전송, 배포, 스크래핑 등의 행위는 저작권법,
+                    콘텐츠사업 진흥법 등에 의하여 엄격히 금지됩니다.</p>
+            </div>
+            <p class="copyright">Copyright ⓒ SSG.COM Corp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- <div class="group-toolbar">
+        <div class="toolbar-area">
+            <ul class="toolbar-list">
+                <li class="toolbar-item">
+                    <a href="#" class="toolbar" >
+                        <i class="icon  category"></i>
+                        <span class="title">카테고리</span>
+                    </a>
+                </li>
+                <li class="toolbar-item">
+                    <a href="#" class="toolbar">
+                        <i class="icon  search"></i>
+                        <span class="title">통합검색</span>
+                    </a>
+                </li>
+                <li class="toolbar-item">
+                    <a href="#" class="toolbar">
+                        <i class="icon  home"></i>
+                        <span class="title">홈</span>
+                    </a>
+                </li>
+                <li class="toolbar-item">
+                    <a href="#" class="toolbar">
+                        <i class="icon mypage"></i>
+                        <span class="title">MY</span>
+                    </a>
+                </li>
+                <li class="toolbar-item">
+                    <a href="#" class="toolbar">
+                        <i class="icon  recent"></i>
+                        <span class="title">최근본</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./asset/js/script.js"></script>
+</body>
+
+</html>

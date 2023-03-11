@@ -1,0 +1,138 @@
+{
+    "items": [
+        {
+            "img":"asset/images/recommend_01.png",
+            "alt":"현대카드",
+            "title":"최대 8만원 혜택",
+            "desc":"쓸 때마다 최대 12% 적립"
+        },
+        {
+            "img":"asset/images/recommend_02.png",
+            "alt":"SSG.COM 삼성카드(10/26~)",
+            "title":"더 강력해진 SSG.COM 삼성카드",
+            "desc":"SSG MONEY 최대 15% 적립 + 스마일클럽 월이용료 할인"
+        },
+        {
+            "img":"asset/images/recommend_03.png",
+            "alt":"스타필드 WINTER COLLECTION",
+            "title":"스타필드 WINTER COLLECTION",
+            "desc":"인기상품 최대 20% 쿠폰 할인"
+        },
+        {
+            "img":"asset/images/recommend_04.png",
+            "alt":"유튜브 멤버십",
+            "title":"유튜브 프리미엄 3개월 무료",
+            "desc":"스마일클럽만 드리는 혜택"
+        }
+    ],
+
+    "services" : [
+        {
+            "img":"asset/images/service_01.png",
+            "alt":"가치상점",
+            "title":"가치상점",
+            "desc":"지자체와 중소상공인을 돕는 가치 있는 소비의 시작"
+        },
+        {
+            "img":"asset/images/service_02.png",
+            "alt":"신세계 리빙 셀렉샵",
+            "title":"Higher Standard of Living",
+            "desc":"신세계 리빙 셀렉샵"
+        },
+        {
+            "img":"asset/images/service_03.png",
+            "alt":"오늘뭐먹지",
+            "title":"오늘 뭐 먹지?",
+            "desc":"즐겁고 맛있는 고민"
+        },
+        {
+            "img":"asset/images/service_04.png",
+            "alt":"카페앳홈",
+            "title":"Cafe at HOME",
+            "desc":"누구나 방구석 한 켠에 카페가 있다"
+        },
+        {
+            "img":"asset/images/service_05.jpg",
+            "alt":"먼데이문",
+            "title":"MONDAY MOON",
+            "desc":"럭셔리 뷰티부터 다양한 뷰티 컨텐츠까지!"
+        }
+
+    ],
+    "promo":[
+        {
+            "img":"asset/images/events_01.jpg",
+            "alt":"유한킴벌리",
+            "title":"하기스/크리넥스외 특가행사",
+            "desc":"최대 1+1 혜택"
+        },
+        {
+            "img":"asset/images/events_02.jpg",
+            "alt":"엘지생활건강",
+            "title":"이마트 창립 29주년기념",
+            "desc":"주말특가. 최대할인30%"
+        }
+    ],
+    "blossom" : [
+        {
+            "img":"asset/images/blossom_01.jpg",
+            "alt":"다이슨 배너",
+            "title":"다이슨 코리아",
+            "desc":"헤어기기부터 청소기, 공기케어 특별혜택으로 만나다"
+        },
+        {
+            "img":"asset/images/blossom_02.jpg",
+            "alt":"CJ제일제당 비비고",
+            "title":"CJ제일제당 비비고",
+            "desc":"Share Korean Flavor"
+        },
+        {
+            "img":"asset/images/blossom_03.jpg",
+            "alt":"매일유업",
+            "title":"매일유업",
+            "desc":"매일 묻고 매일 답하다"
+        },
+        {
+            "img":"asset/images/blossom_04.jpg",
+            "alt":"유한킴벌리",
+            "title":"유한킴벌리",
+            "desc":"우리강산 푸르게 푸르게"
+        },
+        {
+            "img":"asset/images/blossom_05.png",
+            "alt":"풀무원 배너",
+            "title":"풀무원",
+            "desc":"나를위해, 지구를위해."
+        },
+        {
+            "img":"asset/images/blossom_06.jpg",
+            "alt":"대상 (22/2/28~)",
+            "title":"대상",
+            "desc":"오늘을 더 맛있게, 청정원 &amp; 종가집"
+        },
+        {
+            "img":"asset/images/blossom_07.png",
+            "alt":"로레알 배너",
+            "title":"Premium Beauty",
+            "desc":"키엘, 랑콤, YSL, 비오템 외 프리미엄 뷰티 브랜드"
+        },
+        {
+            "img":"asset/images/blossom_08.jpg",
+            "alt":"아모레퍼시픽",
+            "title":"아모레퍼시픽",
+            "desc":"사람을, 세상을 아름답게 아모레퍼시픽"
+        },
+        {
+            "img":"asset/images/blossom_09.jpg",
+            "alt":"엘카코리아",
+            "title":"엘카코리아",
+            "desc":"에스티로더, 조말론런던, 맥 외 하이엔드 뷰티 브랜드"
+        },
+        {
+            "img":"asset/images/blossom_10.png",
+            "alt":"LG생활건강",
+            "title":"LG생활건강",
+            "desc":"행복한 일상 가장 가까이"
+        }
+    ]
+}
