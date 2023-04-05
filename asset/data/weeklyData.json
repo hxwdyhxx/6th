@@ -2,23 +2,23 @@
     "items":[
         {
             "image":"asset/images/weekly_01.png",
-            "sub":"빈폴골프",
-            "dsc":"22F/W NEW ARRIVAL !"
+            "sub":"페라가모",
+            "dsc":"맥시밀리언 컬렉션 론칭"
         },
         {
             "image":"asset/images/weekly_02.png",
-            "sub":"[GUCCI] 공식 온라인 스토어",
-            "dsc":"기프트 기빙 컬렉션"
+            "sub":"[시몬스] 전상품 단독최저가♥",
+            "dsc":"오늘 저녁 8시 쓱라이브"
         },
         {
             "image":"asset/images/weekly_03.jpg",
-            "sub":"스타벅스앳홈",
-            "dsc":"신제품 커피믹스"
+            "sub":"Apple Pay 출시,",
+            "dsc":"지금 바로 iPhone으로."
         },
         {
             "image":"asset/images/weekly_04.jpg",
-            "sub":"BRIGHTEN YOUR HOLIDAYS",
-            "dsc":"스타벅스와 함께더욱 반짝이게."
+            "sub":"공식 나이키 ~48%",
+            "dsc":"#데이브레이크#에어맥스#자켓#팬츠"
         }
     ]
 }
